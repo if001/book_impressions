@@ -2,8 +2,8 @@
 title = "クロイドン発12時30分"
 date = 2021-09-06T20:00:00+09:00
 tags = ["ミステリー"]
-author = ["F・W・クロフツ"]
-draft = true
+authors = ["F・W・クロフツ"]
+draft = false
 toc = false
 backtotop = true
 disable_comment = true

@@ -2,8 +2,8 @@
 title = "死んだレモン"
 date = 2021-09-07T20:00:00+09:00
 tags = ["ミステリー", "東京創元社"]
-author = ["フィン・ベル"]
-draft = true
+authors = ["フィン・ベル"]
+draft = false
 toc = false
 backtotop = true
 item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b697/?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16347833%2F"

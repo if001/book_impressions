@@ -1,8 +1,9 @@
 +++
 title = "占星術殺人事件"
 date = 2021-08-06T20:00:00+09:00
-tags = ["ミステリー", "島田荘司"]
-draft = true
+tags = ["ミステリー"]
+authors = ["島田荘司"]
+draft = false
 toc = false
 backtotop = true
 disable_comment = true

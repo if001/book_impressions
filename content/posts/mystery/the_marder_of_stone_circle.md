@@ -2,8 +2,8 @@
 title = "ストーンサークルの殺人"
 date = 2021-09-08T20:00:00+09:00
 tags = ["ミステリー", "早川文庫"]
-author = ["M・W・クレイヴン/東野さやか"]
-draft = true
+authors = ["M・W・クレイヴン/東野さやか"]
+draft = false
 toc = false
 backtotop = true
 disable_comment = true

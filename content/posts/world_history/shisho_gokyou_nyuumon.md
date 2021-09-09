@@ -2,8 +2,8 @@
 title = "四書五経入門"
 date = 2020-11-27T20:00:00+09:00
 tags = ["世界史", "中国史"]
-draft = false
-toc = true
+draft = true
+toc = false
 backtotop = true
 disable_comment = true
 item_link = ""

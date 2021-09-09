@@ -1,8 +1,8 @@
 +++
-title = "template"
-date = 2021-08-06T20:00:00+09:00
+title = "僧正殺人事件"
+date = 2021-09-06T20:00:00+09:00
 tags = ["ミステリー"]
-authors = ["歌野晶午"]
+authors = ["S・S・ヴァン・ダイン"]
 draft = true
 toc = false
 backtotop = true
@@ -23,7 +23,7 @@ disable_comment = true
 終盤にある、作者からの挑戦も面白かった。
 
 ### 自分ならどうするか
-### トリックについて
 
+### トリックについて
 
 

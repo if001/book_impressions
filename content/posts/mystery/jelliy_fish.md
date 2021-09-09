@@ -1,8 +1,8 @@
 +++
-title = "template"
+title = "ジェリーフィッシュは凍らない"
 date = 2021-08-06T20:00:00+09:00
 tags = ["ミステリー"]
-authors = ["歌野晶午"]
+author = ["市川憂人"]
 draft = true
 toc = false
 backtotop = true
@@ -23,7 +23,7 @@ disable_comment = true
 終盤にある、作者からの挑戦も面白かった。
 
 ### 自分ならどうするか
-### トリックについて
 
+### トリックについて
 
 

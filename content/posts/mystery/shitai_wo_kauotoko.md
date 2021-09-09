@@ -1,8 +1,8 @@
 +++
 title = "死体を買う男"
 date = 2021-09-05T20:00:00+09:00
-tags = ["ミステリー", "歌野晶午"]
-author = ["歌野晶午"]
+tags = ["ミステリー"]
+authors = ["歌野晶午"]
 draft = false
 toc = false
 backtotop = true

@@ -2,7 +2,7 @@
 title = "世界五代神話"
 date = 2020-10-11T20:00:00+09:00
 tags = ["神話", "世界史"]
-draft = false
+draft = true
 toc = true
 backtotop = true
 disable_comment = true

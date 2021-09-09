@@ -2,7 +2,7 @@
 title = "森博嗣シリーズ年表"
 date = 2020-10-07T20:00:00+09:00
 tags = ["森博嗣", "Wシリーズ"]
-draft = false
+draft = true
 toc = false
 backtotop = true
 disable_comment = true

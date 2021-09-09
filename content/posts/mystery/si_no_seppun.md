@@ -2,8 +2,8 @@
 title = "死の接吻"
 date = 2020-10-11T20:00:00+09:00
 tags = ["ミステリー", "早川文庫"]
-author = ["アイラ・レヴィン/中田耕治"]
-draft = false
+authors = ["アイラ・レヴィン/中田耕治"]
+draft = true
 toc = true
 backtotop = true
 disable_comment = true

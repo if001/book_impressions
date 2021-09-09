@@ -2,7 +2,7 @@
 title = "世界史とつなげて学ぶ中国全史"
 date = 2020-10-11T20:00:00+09:00
 tags = ["世界史"]
-draft = false
+draft = true
 toc = true
 backtotop = true
 disable_comment = true

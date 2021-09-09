@@ -6,8 +6,8 @@ author = ["歌野晶午"]
 draft = false
 toc = false
 backtotop = true
-disable_comment = true
 item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b697/?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1392212%2F"
+disable_comment = true
 item_img = "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0627/06273315.jpg?_ex=120x120"
 +++
 

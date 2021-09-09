@@ -1,14 +1,16 @@
 baseURL = "https://if001.github.io/book_impressions/"
 languageCode = "ja"
-title = "ほんのめも"
-theme = "harbor"
+title = "読書録"
+theme = "myharbor"
 
 DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 publishDir= "docs"
+ignoreFiles = ["/posts/*/\\.#*"]
+hasCJKLanguage = true
 
-
+   
 [Author]
   name = "if_004"
 
@@ -21,7 +23,8 @@ publishDir= "docs"
     ordered = false
     startLevel = 2
     
-hasCJKLanguage = true
+[blackfriday]
+   hrefTargetBlank = true
 
 [[params.nav]]
   identifier = "home"
@@ -30,12 +33,12 @@ hasCJKLanguage = true
   url = "/"
   weight = 3
   
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/pages/about"
-  weight = 3
+# [[params.nav]]
+#   identifier = "about"
+#   name = "About"
+#   icon = "fas fa-user fa-lg"
+#   url = "/pages/about"
+#   weight = 3
   
 [[params.nav]]
   identifier = "tags"

@@ -1,15 +1,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>ほんのめも on ほんのめも</title>
+		<title>読書録 on 読書録</title>
 		<link>https://if001.github.io/book_impressions/</link>
-		<description>Recent content in ほんのめも </description>
+		<description>Recent content in 読書録 </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
   		<language>ja</language>
 		
-		<managingEditor>Page(&#34;ほんのめも&#34;) (if_004)</managingEditor>
+		<managingEditor>Page(&#34;読書録&#34;) (if_004)</managingEditor>
     	
-  		<lastBuildDate>Sun, 05 Sep 2021 20:00:00 +0900</lastBuildDate>
+  		<lastBuildDate>Wed, 08 Sep 2021 20:00:00 +0900</lastBuildDate>
 		
 		<atom:link href="/book_impressions/" rel="self" type="application/rss+xml" />
 		

@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tags on ほんのめも</title>
+		<title>Tags on 読書録</title>
 		<link>https://if001.github.io/book_impressions/tags/</link>
 		<description>Recent content in Tags </description>
 		<generator>Hugo -- gohugo.io</generator>
@@ -9,7 +9,7 @@
 		
 		<managingEditor>Page(/tags) (if_004)</managingEditor>
     	
-  		<lastBuildDate>Sun, 05 Sep 2021 20:00:00 +0900</lastBuildDate>
+  		<lastBuildDate>Wed, 08 Sep 2021 20:00:00 +0900</lastBuildDate>
 		
 		<atom:link href="/book_impressions/tags/" rel="self" type="application/rss+xml" />
 		

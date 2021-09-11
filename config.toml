@@ -1,4 +1,5 @@
-baseURL = "https://if001.github.io/book_impressions/"
+# baseURL = "https://if001.github.io/book_impressions/"
+baseURL = "https://book.if-blog.site"
 languageCode = "ja"
 title = "読書録"
 theme = "myharbor"

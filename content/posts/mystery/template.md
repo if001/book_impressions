@@ -7,6 +7,8 @@ draft = true
 toc = false
 backtotop = true
 disable_comment = true
+item_link = ""
+item_img = ""
 +++
 
 

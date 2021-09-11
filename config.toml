@@ -10,7 +10,7 @@ footnoteReturnLinkContents = "^"
 publishDir= "docs"
 ignoreFiles = ["/posts/*/\\.#*"]
 hasCJKLanguage = true
-
+enableRobotsTXT = false
 googleAnalytics = "G-BRBQKL8T65"
 
 [Author]

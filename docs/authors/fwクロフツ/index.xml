@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>F・W・クロフツ on 読書録</title>
-		<link>https://if001.github.io/book_impressions/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/</link>
+		<link>https://book.if-blog.site/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/</link>
 		<description>Recent content in F・W・クロフツ </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
@@ -11,7 +11,7 @@
     	
   		<lastBuildDate>Mon, 06 Sep 2021 20:00:00 +0900</lastBuildDate>
 		
-		<atom:link href="/book_impressions/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/" rel="self" type="application/rss+xml" />
+		<atom:link href="/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/" rel="self" type="application/rss+xml" />
 		
 	</channel>
 </rss>

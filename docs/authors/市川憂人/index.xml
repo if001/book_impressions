@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>市川憂人 on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E5%B8%82%E5%B7%9D%E6%86%82%E4%BA%BA/</link>
+		<description>Recent content in 市川憂人 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/市川憂人) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Fri, 10 Sep 2021 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E5%B8%82%E5%B7%9D%E6%86%82%E4%BA%BA/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

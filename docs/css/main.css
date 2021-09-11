@@ -706,3 +706,7 @@ footer i {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.nav-title {
+    font-family: 'Hina Mincho', serif;    
+}

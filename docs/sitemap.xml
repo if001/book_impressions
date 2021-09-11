@@ -2,68 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://if001.github.io/book_impressions/posts/</loc>
+    <loc>https://book.if-blog.site/authors/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/mystery/jelliy_fish/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/authors/%E5%B8%82%E5%B7%9D%E6%86%82%E4%BA%BA/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/</loc>
+    <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/mystery/the_marder_of_stone_circle/</loc>
     <lastmod>2021-09-08T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/tags/</loc>
+    <loc>https://book.if-blog.site/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2021-09-08T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mystery/the_marder_of_stone_circle/</loc>
-    <lastmod>2021-09-08T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://if001.github.io/book_impressions/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
-    <lastmod>2021-09-08T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://if001.github.io/book_impressions/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
-    <lastmod>2021-09-08T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://if001.github.io/book_impressions/</loc>
-    <lastmod>2021-09-08T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/</loc>
+    <loc>https://book.if-blog.site/authors/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%99%E3%83%AB/</loc>
     <lastmod>2021-09-07T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%99%E3%83%AB/</loc>
+    <loc>https://book.if-blog.site/tags/%E6%9D%B1%E4%BA%AC%E5%89%B5%E5%85%83%E7%A4%BE/</loc>
     <lastmod>2021-09-07T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/tags/%E6%9D%B1%E4%BA%AC%E5%89%B5%E5%85%83%E7%A4%BE/</loc>
+    <loc>https://book.if-blog.site/posts/mystery/dead_leamon/</loc>
     <lastmod>2021-09-07T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mystery/dead_leamon/</loc>
-    <lastmod>2021-09-07T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/</loc>
+    <loc>https://book.if-blog.site/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/</loc>
     <lastmod>2021-09-06T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mystery/kuroidon_hatsu/</loc>
+    <loc>https://book.if-blog.site/posts/mystery/kuroidon_hatsu/</loc>
     <lastmod>2021-09-06T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/%E6%AD%8C%E9%87%8E%E6%99%B6%E5%8D%88/</loc>
+    <loc>https://book.if-blog.site/authors/%E6%AD%8C%E9%87%8E%E6%99%B6%E5%8D%88/</loc>
     <lastmod>2021-09-05T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mystery/shitai_wo_kauotoko/</loc>
+    <loc>https://book.if-blog.site/posts/mystery/shitai_wo_kauotoko/</loc>
     <lastmod>2021-09-05T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mystery/senseijutsu/</loc>
+    <loc>https://book.if-blog.site/posts/mystery/senseijutsu/</loc>
     <lastmod>2021-08-06T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/%E5%B3%B6%E7%94%B0%E8%8D%98%E5%8F%B8/</loc>
+    <loc>https://book.if-blog.site/authors/%E5%B3%B6%E7%94%B0%E8%8D%98%E5%8F%B8/</loc>
     <lastmod>2021-08-06T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/</loc>
+    <loc>https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/</loc>
     <lastmod>2020-10-10T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/%E6%A3%AE%E5%8D%9A%E5%97%A3/</loc>
+    <loc>https://book.if-blog.site/authors/%E6%A3%AE%E5%8D%9A%E5%97%A3/</loc>
     <lastmod>2020-10-10T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mori_hiroshi/w_3/</loc>
+    <loc>https://book.if-blog.site/posts/mori_hiroshi/w_3/</loc>
     <lastmod>2020-10-10T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/posts/mori_hiroshi/w_1/</loc>
+    <loc>https://book.if-blog.site/posts/mori_hiroshi/w_1/</loc>
     <lastmod>2020-10-07T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/authors/mw%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3/%E6%9D%B1%E9%87%8E%E3%81%95%E3%82%84%E3%81%8B/</loc>
+    <loc>https://book.if-blog.site/authors/mw%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3/%E6%9D%B1%E9%87%8E%E3%81%95%E3%82%84%E3%81%8B/</loc>
   </url><url>
-    <loc>https://if001.github.io/book_impressions/search/</loc>
+    <loc>https://book.if-blog.site/search/</loc>
   </url>
 </urlset>

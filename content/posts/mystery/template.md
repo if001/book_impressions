@@ -1,7 +1,7 @@
 +++
 title = "template"
 date = 2021-08-06T20:00:00+09:00
-tags = ["ミステリー"]
+tags = ["ミステリー", "創元推理文庫"]
 authors = ["歌野晶午"]
 draft = true
 toc = false

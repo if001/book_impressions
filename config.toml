@@ -12,6 +12,7 @@ ignoreFiles = ["/posts/*/\\.#*"]
 hasCJKLanguage = true
 enableRobotsTXT = false
 googleAnalytics = "G-BRBQKL8T65"
+perPage = 10
 
 [Author]
   name = "if_004"
@@ -24,7 +25,7 @@ googleAnalytics = "G-BRBQKL8T65"
     endLevel = 3
     ordered = false
     startLevel = 2
-    
+
 [blackfriday]
    hrefTargetBlank = true
 

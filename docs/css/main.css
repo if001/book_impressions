@@ -51,12 +51,18 @@ a:hover {
   color: #535353;
 }
 
-
 img {
     max-width: 90vw;
 }
 
 br {}
+
+hr {
+    margin-block-start: 1.0em;
+    margin-block-end: 1.0em;
+    border-top: 3px double #ddd;
+    width: 60%;
+}
 
 .error-text {
   font-family: 'Roboto', Helvetica, sans-serif;
@@ -359,6 +365,8 @@ blockquote {
   color: #808080;
   padding: 0 10px;
   border-left: 4px solid #aaaaaa;
+  margin-inline-start: 0.5em;
+  margin-inline-end: 0.5em;
 }
 
 blockquote p:first-child {

@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>江戸川乱歩 on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E6%B1%9F%E6%88%B8%E5%B7%9D%E4%B9%B1%E6%AD%A9/</link>
+		<description>Recent content in 江戸川乱歩 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/江戸川乱歩) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Tue, 21 Sep 2021 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E6%B1%9F%E6%88%B8%E5%B7%9D%E4%B9%B1%E6%AD%A9/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

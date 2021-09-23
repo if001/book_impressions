@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://book.if-blog.site/posts/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/mystery/si_no_seppun/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/</loc>
+    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://book.if-blog.site/authors/</loc>
     <lastmod>2021-09-21T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://book.if-blog.site/posts/</loc>
-    <lastmod>2021-09-21T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/tags/</loc>
-    <lastmod>2021-09-21T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
-    <lastmod>2021-09-21T20:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://book.if-blog.site/authors/%E6%B1%9F%E6%88%B8%E5%B7%9D%E4%B9%B1%E6%AD%A9/</loc>
-    <lastmod>2021-09-21T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/</loc>
     <lastmod>2021-09-21T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/posts/edogawa_ranpo/inzyuu/</loc>
@@ -39,9 +45,6 @@
     <lastmod>2021-09-10T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/the_marder_of_stone_circle/</loc>
-    <lastmod>2021-09-08T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2021-09-08T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%99%E3%83%AB/</loc>
@@ -98,5 +101,7 @@
     <loc>https://book.if-blog.site/authors/mw%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3/%E6%9D%B1%E9%87%8E%E3%81%95%E3%82%84%E3%81%8B/</loc>
   </url><url>
     <loc>https://book.if-blog.site/search/</loc>
+  </url><url>
+    <loc>https://book.if-blog.site/authors/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%AC%E3%83%B4%E3%82%A3%E3%83%B3/%E4%B8%AD%E7%94%B0%E8%80%95%E6%B2%BB/</loc>
   </url>
 </urlset>

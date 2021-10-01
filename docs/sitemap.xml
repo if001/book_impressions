@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://book.if-blog.site/authors/</loc>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://book.if-blog.site/posts/</loc>
-    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/tags/</loc>
-    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/authors/%E3%82%A2%E3%82%AC%E3%82%B5%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%86%E3%82%A3/</loc>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/tags/%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB/</loc>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
-    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/agatha/the_body_in_the_library/</loc>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/</loc>
+    <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://book.if-blog.site/posts/agatha/a_pocket_full_of_rye/</loc>
+    <lastmod>2021-09-26T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2021-09-23T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/si_no_seppun/</loc>
     <lastmod>2021-09-23T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/</loc>
-    <lastmod>2021-09-23T20:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://book.if-blog.site/authors/</loc>
-    <lastmod>2021-09-21T20:00:00+09:00</lastmod>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%B1%9F%E6%88%B8%E5%B7%9D%E4%B9%B1%E6%AD%A9/</loc>
     <lastmod>2021-09-21T20:00:00+09:00</lastmod>

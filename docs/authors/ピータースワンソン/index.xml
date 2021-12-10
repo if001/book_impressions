@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ピーター・スワンソン on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%AF%E3%83%B3%E3%82%BD%E3%83%B3/</link>
+		<description>Recent content in ピーター・スワンソン </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/ピータースワンソン) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Thu, 11 Nov 2021 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%AF%E3%83%B3%E3%82%BD%E3%83%B3/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ジャニス・バレット on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E3%82%B8%E3%83%A3%E3%83%8B%E3%82%B9%E3%83%90%E3%83%AC%E3%83%83%E3%83%88/</link>
+		<description>Recent content in ジャニス・バレット </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/ジャニスバレット) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 20 Aug 2022 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E3%82%B8%E3%83%A3%E3%83%8B%E3%82%B9%E3%83%90%E3%83%AC%E3%83%83%E3%83%88/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

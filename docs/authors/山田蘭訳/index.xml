@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>山田蘭訳 on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E5%B1%B1%E7%94%B0%E8%98%AD%E8%A8%B3/</link>
+		<description>Recent content in 山田蘭訳 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/山田蘭訳) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 20 Aug 2022 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E5%B1%B1%E7%94%B0%E8%98%AD%E8%A8%B3/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

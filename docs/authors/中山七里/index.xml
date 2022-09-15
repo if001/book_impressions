@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>中山七里 on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E4%B8%AD%E5%B1%B1%E4%B8%83%E9%87%8C/</link>
+		<description>Recent content in 中山七里 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/中山七里) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 10 Sep 2022 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E4%B8%AD%E5%B1%B1%E4%B8%83%E9%87%8C/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

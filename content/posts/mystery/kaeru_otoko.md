@@ -10,7 +10,6 @@ item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b69
 item_img = "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0899/9784796680899.jpg?_ex=120x120"
 +++
 
-
 ## あらすじ
 とあるマンションの13階で、フックに吊るされた裸の女性の死体が発見される。
 そのそばにはひらがなだけで書かれた怪しいメモが残されていた。

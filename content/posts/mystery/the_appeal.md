@@ -10,7 +10,6 @@ item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b69
 item_img = "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/7772/9784087607772_1_4.jpg?_ex=120x120"
 +++
 
-
 ## あらすじ
 マーティン・ヘイワードはイギリスの田舎でアマチュア劇団である〈フェアウェイ劇団〉を運営している。
 ある日、マーティン・ヘイワードの孫娘が難病を患ったことが発覚する。治療には大金が必要であった。

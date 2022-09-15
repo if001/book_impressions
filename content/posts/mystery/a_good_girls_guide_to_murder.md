@@ -6,7 +6,7 @@ authors = ["ホリー・ジャクソン","服部京子訳"]
 draft = false
 toc = false
 backtotop = true
-item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b697/?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16792567%2F"
+item_link = "https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b697/?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F17129582%2F"
 item_img = "https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/5058/9784488135058_1_3.jpg?_ex=120x120"
 +++
 

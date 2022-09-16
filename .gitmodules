@@ -1,0 +1,3 @@
+[submodule "themes/myhabor"]
+	path = themes/myhabor
+	url = git@github.com:if001/harbor.git

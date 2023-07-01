@@ -4,167 +4,279 @@
   <url>
     <loc>https://book.if-blog.site/authors/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%9C%88%E5%8E%9F%E6%B8%89/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/kubinashikan_no_satsuzin/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/</loc>
     <lastmod>2023-06-30T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%AF%E3%83%B3%E3%82%BD%E3%83%B3/</loc>
     <lastmod>2023-06-02T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/dastin/</loc>
     <lastmod>2023-06-02T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2023-06-02T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E4%B8%AD%E5%B1%B1%E4%B8%83%E9%87%8C/</loc>
     <lastmod>2022-09-10T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/kaeru_otoko/</loc>
     <lastmod>2022-09-10T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%82%B8%E3%83%A3%E3%83%8B%E3%82%B9%E3%83%90%E3%83%AC%E3%83%83%E3%83%88/</loc>
     <lastmod>2022-08-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/the_appeal/</loc>
     <lastmod>2022-08-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E5%B1%B1%E7%94%B0%E8%98%AD%E8%A8%B3/</loc>
     <lastmod>2022-08-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/the_glassbird_will_never_return/</loc>
     <lastmod>2021-12-05T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E5%B8%82%E5%B7%9D%E6%86%82%E4%BA%BA/</loc>
     <lastmod>2021-12-05T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%83%9B%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A3%E3%82%AF%E3%82%BD%E3%83%B3/</loc>
     <lastmod>2021-12-03T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/a_good_girls_guide_to_murder/</loc>
     <lastmod>2021-12-03T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%9C%8D%E9%83%A8%E4%BA%AC%E5%AD%90%E8%A8%B3/</loc>
     <lastmod>2021-12-03T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/the_murder_of_miranda/</loc>
     <lastmod>2021-11-11T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E5%8B%99%E5%8F%B0%E5%A4%8F%E5%AD%90%E8%A8%B3/</loc>
     <lastmod>2021-11-11T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/naname_yashiki/</loc>
     <lastmod>2021-10-13T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E5%B3%B6%E7%94%B0%E8%8D%98%E5%8F%B8/</loc>
     <lastmod>2021-10-13T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%82%A2%E3%82%AC%E3%82%B5%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%86%E3%82%A3/</loc>
     <lastmod>2021-10-09T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2021-10-09T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/agatha/five_little_pigs/</loc>
     <lastmod>2021-10-09T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/agatha/the_body_in_the_library/</loc>
     <lastmod>2021-09-28T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/agatha/a_pocket_full_of_rye/</loc>
     <lastmod>2021-09-26T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/si_no_seppun/</loc>
     <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/</loc>
     <lastmod>2021-09-23T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/edogawa_ranpo/inzyuu/</loc>
     <lastmod>2021-09-21T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%B1%9F%E6%88%B8%E5%B7%9D%E4%B9%B1%E6%AD%A9/</loc>
     <lastmod>2021-09-21T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/edogawa_ranpo/zakuro/</loc>
     <lastmod>2021-09-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/blue_rose/</loc>
     <lastmod>2021-09-11T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/jelliy_fish/</loc>
     <lastmod>2021-09-10T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/the_marder_of_stone_circle/</loc>
     <lastmod>2021-09-08T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%99%E3%83%AB/</loc>
     <lastmod>2021-09-07T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/dead_leamon/</loc>
     <lastmod>2021-09-07T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/fw%E3%82%AF%E3%83%AD%E3%83%95%E3%83%84/</loc>
     <lastmod>2021-09-06T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/kuroidon_hatsu/</loc>
     <lastmod>2021-09-06T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%AD%8C%E9%87%8E%E6%99%B6%E5%8D%88/</loc>
     <lastmod>2021-09-05T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/shitai_wo_kauotoko/</loc>
     <lastmod>2021-09-05T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mystery/senseijutsu/</loc>
     <lastmod>2021-08-06T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/</loc>
     <lastmod>2020-12-22T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_8/</loc>
     <lastmod>2020-12-22T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E6%A3%AE%E5%8D%9A%E5%97%A3/</loc>
     <lastmod>2020-12-22T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_9/</loc>
     <lastmod>2020-12-22T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_7/</loc>
     <lastmod>2020-11-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_6/</loc>
     <lastmod>2020-10-20T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_4/</loc>
     <lastmod>2020-10-15T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_3/</loc>
     <lastmod>2020-10-10T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/posts/mori_hiroshi/w_1/</loc>
     <lastmod>2020-10-07T20:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/mw%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3/%E6%9D%B1%E9%87%8E%E3%81%95%E3%82%84%E3%81%8B/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://book.if-blog.site/authors/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%AC%E3%83%B4%E3%82%A3%E3%83%B3/%E4%B8%AD%E7%94%B0%E8%80%95%E6%B2%BB/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

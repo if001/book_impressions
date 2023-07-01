@@ -1,5 +1,5 @@
 #!/bin/bash
-cd themes/myharbor/
+cd themes/myhabor/
 npm run build-prod
 git add static
 git commit -m "build"

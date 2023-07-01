@@ -2,7 +2,7 @@
 baseURL = "https://book.if-blog.site"
 languageCode = "ja"
 title = "読書録"
-theme = "myharbor"
+theme = "myhabor"
 
 DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
@@ -90,3 +90,8 @@ perPage = 10
 [[related.indices]]
   name = "date"
   weight = 10
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5

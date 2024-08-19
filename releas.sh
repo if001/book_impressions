@@ -1,8 +1,9 @@
 #!/bin/bash
 cd themes/myhabor/
-npm run build-prod
-git add static
-git commit -m "build"
+git checkout book_imp &&\
+npm run build-prod &&\
+git add static &&\
+git commit -m "build" &&\
 git push
 
 cd ../../

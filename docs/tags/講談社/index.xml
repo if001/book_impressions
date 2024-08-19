@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>講談社 on 読書録</title>
+		<link>https://book.if-blog.site/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/</link>
+		<description>Recent content in 講談社 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/tags/講談社) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Sun, 18 Aug 2024 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>桃野雑派 on 読書録</title>
+		<link>https://book.if-blog.site/authors/%E6%A1%83%E9%87%8E%E9%9B%91%E6%B4%BE/</link>
+		<description>Recent content in 桃野雑派 </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>ja</language>
+		
+		<managingEditor>Page(/authors/桃野雑派) (if_004)</managingEditor>
+    	
+  		<lastBuildDate>Sun, 18 Aug 2024 20:00:00 +0900</lastBuildDate>
+		
+		<atom:link href="/authors/%E6%A1%83%E9%87%8E%E9%9B%91%E6%B4%BE/" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

@@ -36,7 +36,7 @@ body {
   background: 0 0;
   flex-flow: column;
   text-rendering: optimizeLegibility;
-  background-color: rgb(238, 238, 238);
+  background-color: #FFFFFF;
 }
 
 a {
@@ -51,12 +51,18 @@ a:hover {
   color: #535353;
 }
 
-
 img {
     max-width: 90vw;
 }
 
 br {}
+
+hr {
+    margin-block-start: 1.0em;
+    margin-block-end: 1.0em;
+    border-top: 3px double #ddd;
+    width: 60%;
+}
 
 .error-text {
   font-family: 'Roboto', Helvetica, sans-serif;
@@ -98,7 +104,7 @@ br {}
 .nav-links {
   margin: 0;
   padding: 0;
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   list-style: none;
 }
 
@@ -165,8 +171,11 @@ h3 {
   line-height: 1.7;
   color: #535353;
   background-color: white;
-  background-color: rgb(238, 238, 238);
   word-break: break-word;
+}
+
+.container img {
+  max-width: 100%;
 }
 
 #blog-archives {
@@ -214,6 +223,9 @@ h3 {
 
 #TableOfContents ul ul {
   list-style-type: disc;
+}
+ul {
+    padding-inline-start: 20px;
 }
 li a {
     color: #535353;
@@ -353,6 +365,8 @@ blockquote {
   color: #808080;
   padding: 0 10px;
   border-left: 4px solid #aaaaaa;
+  margin-inline-start: 0.5em;
+  margin-inline-end: 0.5em;
 }
 
 blockquote p:first-child {
@@ -679,7 +693,7 @@ footer i {
 
 
 .top-title {
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Hina Mincho', serif;
     font-weight: 500;
     font-size: 4rem !important;
     padding: 0 20px;
@@ -689,4 +703,18 @@ footer i {
 
 .draft-tag {
     color: red;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis; /* Safari */
+    -o-text-overflow: ellipsis; /* Opera */
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nav-title {
+    font-family: 'Hina Mincho', serif;    
 }

@@ -27,52 +27,86 @@
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://book.if-blog.siteindex.xml"
+  href="https://book.if-blog.site/index.xml"
   title="読書録"
+  />
+
+<link rel="stylesheet" href="https://book.if-blog.site//fontawesome/css/all.min.css" />
+
+
+
+
+<link
+  crossorigin="anonymous"
+  href="/css/styles.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
+
+
+
 
 <link
   id="dark-mode-theme"
-  rel="stylesheet"
-  href="https://book.if-blog.site/css/dark.css"
-  disabled
-/>
-<link rel="stylesheet" href="https://book.if-blog.site/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://book.if-blog.site/css/main.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400&display=swap"
-  rel="stylesheet"
+  crossorigin="anonymous"
+  href="/css/dark.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+
 <script>
-  $(document).ready(function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: '[[', right: ']]', display: true },
-        { left: '$', right: '$', display: false },
-      ],
-    })
-  })
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
 </script>
 
-<script src="https://book.if-blog.site/js/main.bundle.js"></script>
-<script src="https://book.if-blog.site/js/instantpage.min.js" type="module" defer></script>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
 
 
+<script defer crossorigin="anonymous" src="/js/theme.js" integrity=""></script>
+
+
+<script defer crossorigin="anonymous" src="/js/instantpage.min.js" integrity=""></script>
 
   
   
 
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.155.1">
   </head>
   <body>
     
@@ -88,9 +122,9 @@
   <div class="nav">
     
 
-    <ul class="nav-links">
+      <ul class="nav-links">
       
-        
+      
           <li>
             <a href="/" name="Home" class="tooltip"
               ><i class="fas fa-home fa-lg"></i>
@@ -99,7 +133,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/authors" name="Authors" class="tooltip"
               ><i class="fas fa-user fa-lg"></i>
@@ -108,7 +142,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/tags" name="Tags" class="tooltip"
               ><i class="fas fa-tag fa-lg"></i>
@@ -126,10 +160,9 @@
         <div class="page-heading">
           
             
-              <h1 class="top-title">読書録</h1>
-              
-          
-          
+            <h1 class="top-title">読書録</h1>
+            
+            
         </div>
       </div>
     </div>
@@ -140,38 +173,52 @@
   <div class="container" role="main">
     <div class="posts-list">
       
-        
-        
+      
+      
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mystery/dead_leamon/">
+  <a href="https://book.if-blog.site/posts/mystery/the_murder_of_miranda/">
     <h2 class="post-title">
-      死んだレモン
+      そしてミランダを殺す
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ピーター・スワンソン</span>
+	  
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">務台夏子訳</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 主人公のフィンは酒に溺れ、事故を起こし、車椅子生活となった。 酒で妻と友人も失い、フィンランドの南東の南端の島に移住することにした。 心</p>
-    <a href="https://book.if-blog.site/posts/mystery/dead_leamon/" class="post-read-more"></a>
+    <p>あらすじ 主人公のテッドは、空港で、リリーという女性に出会う。 テッドはリリーと世間話をしている中で妻であるミランダが不倫をしていることを話す。 リリーはその話を聞くと、テッドがミランダと不倫相手の殺害するつもりがあるなら手伝うという。 テッドはリリーの魅力や現状の不満もありミランダの殺害を決意する …</p>
+    
+    <a href="/posts/mystery/the_murder_of_miranda/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-      <a href="https://book.if-blog.site/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-09-07
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-11-11
+    
+  </div>
 </div>
 
   </div>
@@ -179,32 +226,42 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mystery/kuroidon_hatsu/">
+  <a href="https://book.if-blog.site/posts/mystery/naname_yashiki/">
     <h2 class="post-title">
-      クロイドン発12時30分
+      斜め屋敷の犯罪
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">島田荘司</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 工場を経営する主人公のチャールズは資金繰りに苦しんでいた。 彼は裕福な叔父のアンドルーに借金を頼むが、断られてしまう。 絶体絶命の状況で</p>
-    <a href="https://book.if-blog.site/posts/mystery/kuroidon_hatsu/" class="post-read-more"></a>
+    <p>あらすじ 日本の北の最果てに傾いた塔と西洋館があった。 この屋敷は斜め屋敷と呼ばれ、ハマー・ディーゼル株式会社の会長である浜本幸三郎氏が建てた屋敷だった。 1983年のクリスマスに浜本幸三郎氏とその知人らで集まりパーティ催していた。 その次の日の朝、密室の部屋で死体が発見される。 その部屋は外通らな …</p>
+    
+    <a href="/posts/mystery/naname_yashiki/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-09-06
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-10-13
+    
+  </div>
 </div>
 
   </div>
@@ -212,32 +269,47 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mystery/shitai_wo_kauotoko/">
+  <a href="https://book.if-blog.site/posts/agatha/five_little_pigs/">
     <h2 class="post-title">
-      死体を買う男
+      五匹の子豚
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">アガサ・クリスティ</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 白骨鬼という江戸川乱歩の未発表小説が発見される。 白骨鬼の小説の中で、江戸川乱歩は1人で紀州の白浜に来ていた。 そこにある人気のない崖で</p>
-    <a href="https://book.if-blog.site/posts/mystery/shitai_wo_kauotoko/" class="post-read-more"></a>
+    <p>あらすじ ポアロの元へ1人の少女がやってくる。 自分の母親が犯人である過去の事件を再度調査してほしいという依頼。 ポアロは事件の当事者に話しを聞くが、それぞれの目線で事件の見え方は全く異なっていた。 ポアロはそれぞれの意見をまとめ、真犯人を見つけ出すことはできるのか&hellip;
+</p>
+    
+    <a href="/posts/agatha/five_little_pigs/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB/">ハヤカワ文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-09-05
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-10-09
+    
+  </div>
 </div>
 
   </div>
@@ -245,32 +317,47 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mystery/senseijutsu/">
+  <a href="https://book.if-blog.site/posts/agatha/the_body_in_the_library/">
     <h2 class="post-title">
-      占星術殺人事件
+      書斎の死体
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">アガサ・クリスティ</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 梅沢平吉という人形師が残した小説から話が始まる。 平吉の小説には、占星術に基づき自身の娘達を殺害し、体の一部分を集めて１体の完璧な人形</p>
-    <a href="https://book.if-blog.site/posts/mystery/senseijutsu/" class="post-read-more"></a>
+    <p>あらすじ バントリー氏の書斎で、身元不明の若い女の死体が発見される。 バントリー氏と夫人はこの女性について見覚えはないという。 バントリー夫人は、友人であるマープルさんに声をかけ、共に事件を調査することに。
+</p>
+    
+    <a href="/posts/agatha/the_body_in_the_library/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB/">ハヤカワ文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-08-06
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-28
+    
+  </div>
 </div>
 
   </div>
@@ -278,32 +365,46 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_8/">
+  <a href="https://book.if-blog.site/posts/agatha/a_pocket_full_of_rye/">
     <h2 class="post-title">
-      血か、死か、無か？
+      ポケットにライ麦を
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">アガサ・クリスティ</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>シリーズ8作目。イマン登場。百年シリーズとの繋がりが出てくる。 あらすじ エジプトの遺跡で、スーパーコンピューターが見つかり、そこにはイマンと呼</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_8/" class="post-read-more"></a>
+    <p>あらすじ 投資信託会社の社長であるフォテスキュー氏がいちいの実の毒で殺害される。 不思議なことにポケットにはライ麦が詰められていた。 そこから、次々と殺人事件が起きる。 被害者の１人であるメイドがセント・メアリー・ミード村の出身であり、マープルさんが屋敷にやってくる。 マープルさんの気付きで、連続し …</p>
+    
+    <a href="/posts/agatha/a_pocket_full_of_rye/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%AB/">ハヤカワ文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-12-22
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-26
+    
+  </div>
 </div>
 
   </div>
@@ -311,32 +412,47 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_9/">
+  <a href="https://book.if-blog.site/posts/mystery/si_no_seppun/">
     <h2 class="post-title">
-      天空の矢はどこへ？
+      死の接吻
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">アイラ・レヴィン/中田耕治</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>シリーズ9作目。ラストの1個前 あらすじ 日本のウォーカロンメーカーであるイシカワの社長や幹部などが乗っている飛行機が行方不明となった。 また、同</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_9/" class="post-read-more"></a>
+    <p>あらすじ 主人公の青年は、お金目的で資産家のドロシィの付き合っていた。 彼女は妊娠しており、結婚を迫られる。 主人公は、自身の野心のため彼女を自殺に見せかけ殺害する計画を思いつく。
+</p>
+    
+    <a href="/posts/mystery/si_no_seppun/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E6%97%A9%E5%B7%9D%E6%96%87%E5%BA%AB/">早川文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-12-22
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-23
+    
+  </div>
 </div>
 
   </div>
@@ -344,32 +460,42 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_7/">
+  <a href="https://book.if-blog.site/posts/edogawa_ranpo/inzyuu/">
     <h2 class="post-title">
-      ペガサスの解は虚栄か？
+      陰獣
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">江戸川乱歩</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>シリーズ7作目。ペガサス登場回。 あらすじ 皇居の地下にある研究施設で、ペガサスという人工知能と対談するハギリ。 ウォーカロンの受胎についての新し</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_7/" class="post-read-more"></a>
+    <p>あらすじ 私は、美術館で美しい女性と出会い、文通をすることに。 彼女は資産家である小山田氏の妻で、歳の差はあるものの仲良くやっている。 そんなとき、旦那にも言えずにいた過去のとある出来事から、彼女と旦那の身に危害を加えるような脅迫状が届く。 私は、その相談を受け彼女を助けるために色々と捜査をするのだ …</p>
+    
+    <a href="/posts/edogawa_ranpo/inzyuu/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-11-20
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-21
+    
+  </div>
 </div>
 
   </div>
@@ -377,32 +503,42 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_6/">
+  <a href="https://book.if-blog.site/posts/edogawa_ranpo/zakuro/">
     <h2 class="post-title">
-      青白く輝く月を見たか？
+      柘榴
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">江戸川乱歩</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>シリーズ6作目。対話可能な人口知能であるオーロラが登場。 あらすじ 北極の海の底に沈んだ潜水艦にの中にオーロラというスーパーコンピューターが設置</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_6/" class="post-read-more"></a>
+    <p>あらすじ とある旅館でミステリー好きの、私と猪股氏が話していた。 警察官でもあった私は、これまでにあった事件の中で硫酸殺人事件を思い出し、猪股氏に説明する。 とある空き家で顔が硫酸でただれた被害者が発見される。 長年いがみ合ってた2つの饅頭屋の主人が事件に関係しているようだが、どちらが犯人でどちらが …</p>
+    
+    <a href="/posts/edogawa_ranpo/zakuro/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-10-20
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-20
+    
+  </div>
 </div>
 
   </div>
@@ -410,32 +546,47 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_4/">
+  <a href="https://book.if-blog.site/posts/mystery/blue_rose/">
     <h2 class="post-title">
-      デボラ、眠っているのか？
+      ブルーローズは眠らない
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">市川憂人</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>シリーズ4作目。デボラが登場。 あらすじ 最近、頭の中で何かの声が聞こえる気がするハギリ。声の主はデボラと言うらしい。 ハギリとウグイが話をしてい</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_4/" class="post-read-more"></a>
+    <p>あらすじ 青い薔薇の誕生が新聞記事で報じられた。 青い薔薇が自然の交配で誕生する確率はゼロに近いが、この薔薇は交配により誕生したものだと言う。 時を同じくし、ある大学の研究により、遺伝子を組み替えることで青い薔薇を誕生させることに成功したことが新聞記事で報じられた。
+</p>
+    
+    <a href="/posts/mystery/blue_rose/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-10-15
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-11
+    
+  </div>
 </div>
 
   </div>
@@ -443,65 +594,46 @@
 
       
         <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_3/">
+  <a href="https://book.if-blog.site/posts/mystery/jelliy_fish/">
     <h2 class="post-title">
-      風は青海を渡るのか？
+      ジェリーフィッシュは凍らない
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">市川憂人</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ シリーズ3作目。ナクチュの遺跡の調査が進み、いくつか伏線が回収されました。 百年シリーズとの関係も少しわかってきました。 新たな遺跡も明</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_3/" class="post-read-more"></a>
+    <p>あらすじ 新技術により浮遊艇&lt;ジェリーフィッシュ&gt;が開発された。 研究、開発したメンバーで浮遊艇に乗り長距離飛行の試験を行っていたが、 その最中、浮遊艇の中で殺人事件が起きる。さらに、自動運行も制御が効かなくなってしまう。 不安と動揺を感じながらも殺人事件の検証と手動制御を試みる一同であ …</p>
+    
+    <a href="/posts/mystery/jelliy_fish/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
     
-  
-</div>
-
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-10-10
-  
-</div>
-
-  </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mori_hiroshi/w_1/">
-    <h2 class="post-title">
-      彼女は一人で歩くのか？
-      
-    </h2>   
-  </a>
-
-  <div class="post-entry">
-    <p>森博嗣のWシリーズの1作目。これまでのシリーズにも出てきたウォーカロンが活躍?する様子。 あらすじ 今作の主人公であるハギリは、ウォーカロンと人</p>
-    <a href="https://book.if-blog.site/posts/mori_hiroshi/w_1/" class="post-read-more"></a>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
   </div>
 
-  <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-10
     
-      <a href="https://book.if-blog.site/tags/w%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA/">Wシリーズ</a>&nbsp;
-    
-  
-</div>
-
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2020-10-07
-  
+  </div>
 </div>
 
   </div>
@@ -510,16 +642,39 @@
       
     </div>
 
-    
+    <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7303877370233278"
+  crossorigin="anonymous"
+></script>
+
+<ins
+  class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-7303877370233278"
+  data-ad-slot="8033172579"
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+></ins>
+<script>
+  ;(adsbygoogle = window.adsbygoogle || []).push({})
+</script>
+
     
       <ul class="pager">
         
           <li class="previous">
             <a href="https://book.if-blog.site/page/1/"
-              ><i class="fas fa-chevron-left"></i> Prev</a
+              ><i class="fas fa-chevron-left"></i></a
             >
           </li>
         
+        
+          <li class="next">
+            <a href="https://book.if-blog.site/page/3/"
+              ><i class="fas fa-chevron-right"></i
+            ></a>
+          </li>
         
       </ul>
     
@@ -538,15 +693,15 @@
 
   <div class="container">
     <div class="credits copyright">
-      <a href="https://book.if-blog.site/pages/about">if_004</a>
+      <a href="https://book.if-blog.site//pages/about"></a>
       &nbsp;&copy;
-      2024
+      2026
       
         &nbsp;/&nbsp;
-        <a href="https://book.if-blog.site">読書録</a>
+        <a href="https://book.if-blog.site/">読書録</a>
       
       &nbsp;&ndash;&nbsp;
-      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+      
 
       <p class="credits theme-by">
          <a href="https://gohugo.io">Hugo</a>&nbsp;Theme

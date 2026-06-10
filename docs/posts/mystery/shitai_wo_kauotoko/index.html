@@ -27,54 +27,92 @@
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://book.if-blog.siteindex.xml"
+  href="https://book.if-blog.site/index.xml"
   title="読書録"
+  />
+
+<link rel="stylesheet" href="https://book.if-blog.site//fontawesome/css/all.min.css" />
+
+
+
+
+<link
+  crossorigin="anonymous"
+  href="/css/styles.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
+
+
+
 
 <link
   id="dark-mode-theme"
-  rel="stylesheet"
-  href="https://book.if-blog.site/css/dark.css"
-  disabled
-/>
-<link rel="stylesheet" href="https://book.if-blog.site/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://book.if-blog.site/css/main.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400&display=swap"
-  rel="stylesheet"
+  crossorigin="anonymous"
+  href="/css/dark.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+
 <script>
-  $(document).ready(function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: '[[', right: ']]', display: true },
-        { left: '$', right: '$', display: false },
-      ],
-    })
-  })
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
 </script>
 
-<script src="https://book.if-blog.site/js/main.bundle.js"></script>
-<script src="https://book.if-blog.site/js/instantpage.min.js" type="module" defer></script>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
 
 
+<script defer crossorigin="anonymous" src="/js/theme.js" integrity=""></script>
+
+
+<script defer crossorigin="anonymous" src="/js/instantpage.min.js" integrity=""></script>
 
   
-    <meta name="description" content="あらすじ 白骨鬼という江戸川乱歩の未発表小説が発見される。 白骨鬼の小説の中で、江戸川乱歩は1人で紀州の白浜に来ていた。 そこにある人気のない崖で" />
+    <meta name="description" content="&lt;h2 id=&#34;あらすじ&#34;&gt;あらすじ&lt;/h2&gt;
+&lt;p&gt;白骨鬼という江戸川乱歩の未発表小説が発見される。
+白骨鬼の小説の中で、江戸川乱歩は1人で紀州の白浜に来ていた。
+そこにある人気のない崖で滑り落ちそうになっていたところを、とある青年に助けられる。
+その後、宿に泊まると、そこで不思議な青年の噂を聞く" />
   
 
 
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.155.1">
   </head>
   <body>
     
@@ -88,9 +126,9 @@
   <div class="nav">
     
 
-    <ul class="nav-links">
+      <ul class="nav-links">
       
-        
+      
           <li>
             <a href="/" name="Home" class="tooltip"
               ><i class="fas fa-home fa-lg"></i>
@@ -99,7 +137,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/authors" name="Authors" class="tooltip"
               ><i class="fas fa-user fa-lg"></i>
@@ -108,7 +146,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/tags" name="Tags" class="tooltip"
               ><i class="fas fa-tag fa-lg"></i>
@@ -127,23 +165,32 @@
           
             
 
-              
-              <h1>
-		
-		死体を買う男
-		
-		
-                </h1>
-              
-
-              
-
-              
             
-          
-          
-          
-          
+            <h1 class="post-title">
+		      
+		      死体を買う男
+		      
+		      
+            </h1>
+            
+
+            <div>
+              
+	          <span style="color:#535353;padding-right:1rem;">
+	            歌野晶午
+	          </span>
+              
+            </div>
+
+
+            
+
+            
+
+            
+
+            
+            
         </div>
       </div>
     </div>
@@ -153,23 +200,43 @@
     
   <div class="container" role="main">
     <article class="article" class="blog-post">
+
       
-        <div class="blog-tags">
-          <i class="fas fa-tag" style="color:#111111"></i>
-          
-            <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a
-            >&nbsp;
-          
-        </div>
+      <div class="postmeta mb-4">
+        <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
+    
+    
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
+
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-09-05
+    
+  </div>
+</div>
+
+      </div>
       
 
       
-        <div style="margin-bottom: 10px;">
-          <i class="fa fa-calendar-alt"></i
-          >&nbsp;2021-09-05
-        </div>
-      
+<div style="text-align: center">
+  <a href=https://hb.afl.rakuten.co.jp/hgc/g00q0726.tce2a7a5.g00q0726.tce2b697/?pc&#61;https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1392212%2F target="_blank">
+	
+	<img src=https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0627/06273315.jpg?_ex&#61;120x120 />
+	
+  </a>
+</div>
 
+
+
+      
       
 
 
@@ -204,28 +271,56 @@
 これが最後に収束していく様子が美しかった。</p>
 
       </div>
+      
+
+      
+
       <div class="related-article">
         
 
-  <h2>See Also</h2>
+  <h2 class="see-also">See Also</h2>
   <ul>
     
-      <li><a href="/posts/mystery/the_glassbird_will_never_return/">グラスバードは還らない</a></li>
+    <li><a href="/posts/mystery/the_glassbird_will_never_return/">グラスバードは還らない
+	
+	<span style="font-size:0.8em;">(市川憂人)</span>
+	
+    </a></li>
     
-      <li><a href="/posts/mystery/a_good_girls_guide_to_murder/">自由研究には向かない殺人</a></li>
+    <li><a href="/posts/mystery/a_good_girls_guide_to_murder/">自由研究には向かない殺人
+	
+	<span style="font-size:0.8em;">(ホリー・ジャクソン)</span>
+	
+	<span style="font-size:0.8em;">(服部京子訳)</span>
+	
+    </a></li>
     
-      <li><a href="/posts/mystery/the_murder_of_miranda/">そしてミランダを殺す</a></li>
+    <li><a href="/posts/mystery/the_murder_of_miranda/">そしてミランダを殺す
+	
+	<span style="font-size:0.8em;">(ピーター・スワンソン)</span>
+	
+	<span style="font-size:0.8em;">(務台夏子訳)</span>
+	
+    </a></li>
     
-      <li><a href="/posts/mystery/naname_yashiki/">斜め屋敷の犯罪</a></li>
+    <li><a href="/posts/mystery/naname_yashiki/">斜め屋敷の犯罪
+	
+	<span style="font-size:0.8em;">(島田荘司)</span>
+	
+    </a></li>
     
-      <li><a href="/posts/agatha/five_little_pigs/">五匹の子豚</a></li>
+    <li><a href="/posts/agatha/five_little_pigs/">五匹の子豚
+	
+	<span style="font-size:0.8em;">(アガサ・クリスティ)</span>
+	
+    </a></li>
     
   </ul>
 
 
       </div>
     </article>
-    
+
     
       <script>
   document.addEventListener('scroll', function () {
@@ -270,15 +365,15 @@
 
   <div class="container">
     <div class="credits copyright">
-      <a href="https://book.if-blog.site/pages/about">if_004</a>
+      <a href="https://book.if-blog.site//pages/about"></a>
       &nbsp;&copy;
-      2024
+      2026
       
         &nbsp;/&nbsp;
-        <a href="https://book.if-blog.site">読書録</a>
+        <a href="https://book.if-blog.site/">読書録</a>
       
       &nbsp;&ndash;&nbsp;
-      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+      
 
       <p class="credits theme-by">
          <a href="https://gohugo.io">Hugo</a>&nbsp;Theme

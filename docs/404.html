@@ -27,54 +27,88 @@
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://book.if-blog.siteindex.xml"
+  href="https://book.if-blog.site/index.xml"
   title="読書録"
+  />
+
+<link rel="stylesheet" href="https://book.if-blog.site//fontawesome/css/all.min.css" />
+
+
+
+
+<link
+  crossorigin="anonymous"
+  href="/css/styles.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
+
+
+
 
 <link
   id="dark-mode-theme"
-  rel="stylesheet"
-  href="https://book.if-blog.site/css/dark.css"
-  disabled
-/>
-<link rel="stylesheet" href="https://book.if-blog.site/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://book.if-blog.site/css/main.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400&display=swap"
-  rel="stylesheet"
+  crossorigin="anonymous"
+  href="/css/dark.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+
 <script>
-  $(document).ready(function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: '[[', right: ']]', display: true },
-        { left: '$', right: '$', display: false },
-      ],
-    })
-  })
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
 </script>
 
-<script src="https://book.if-blog.site/js/main.bundle.js"></script>
-<script src="https://book.if-blog.site/js/instantpage.min.js" type="module" defer></script>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
 
 
+<script defer crossorigin="anonymous" src="/js/theme.js" integrity=""></script>
+
+
+<script defer crossorigin="anonymous" src="/js/instantpage.min.js" integrity=""></script>
 
   
     <meta name="description" content="" />
   
 
 
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.155.1">
   </head>
   <body>
     
@@ -88,9 +122,9 @@
   <div class="nav">
     
 
-    <ul class="nav-links">
+      <ul class="nav-links">
       
-        
+      
           <li>
             <a href="/" name="Home" class="tooltip"
               ><i class="fas fa-home fa-lg"></i>
@@ -99,7 +133,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/authors" name="Authors" class="tooltip"
               ><i class="fas fa-user fa-lg"></i>
@@ -108,7 +142,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/tags" name="Tags" class="tooltip"
               ><i class="fas fa-tag fa-lg"></i>
@@ -127,14 +161,21 @@
           
             
 
-              
-
-              
-
-              
             
-          
-          
+
+            <div>
+              
+            </div>
+
+
+            
+
+            
+
+            
+
+            
+            
         </div>
       </div>
     </div>
@@ -161,15 +202,15 @@
 
   <div class="container">
     <div class="credits copyright">
-      <a href="https://book.if-blog.site/pages/about">if_004</a>
+      <a href="https://book.if-blog.site//pages/about"></a>
       &nbsp;&copy;
-      2024
+      2026
       
         &nbsp;/&nbsp;
-        <a href="https://book.if-blog.site">読書録</a>
+        <a href="https://book.if-blog.site/">読書録</a>
       
       &nbsp;&ndash;&nbsp;
-      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+      
 
       <p class="credits theme-by">
          <a href="https://gohugo.io">Hugo</a>&nbsp;Theme

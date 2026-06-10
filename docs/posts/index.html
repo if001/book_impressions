@@ -27,54 +27,88 @@
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="https://book.if-blog.siteindex.xml"
+  href="https://book.if-blog.site/index.xml"
   title="読書録"
+  />
+
+<link rel="stylesheet" href="https://book.if-blog.site//fontawesome/css/all.min.css" />
+
+
+
+
+<link
+  crossorigin="anonymous"
+  href="/css/styles.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
+
+
+
 
 <link
   id="dark-mode-theme"
-  rel="stylesheet"
-  href="https://book.if-blog.site/css/dark.css"
-  disabled
-/>
-<link rel="stylesheet" href="https://book.if-blog.site/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://book.if-blog.site/css/main.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400&display=swap"
-  rel="stylesheet"
+  crossorigin="anonymous"
+  href="/css/dark.min.css"
+  integrity=""
+  rel="preload stylesheet"
+  as="style"
 />
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css"
-/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+
 <script>
-  $(document).ready(function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: '[[', right: ']]', display: true },
-        { left: '$', right: '$', display: false },
-      ],
-    })
-  })
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
 </script>
 
-<script src="https://book.if-blog.site/js/main.bundle.js"></script>
-<script src="https://book.if-blog.site/js/instantpage.min.js" type="module" defer></script>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
 
 
+<script defer crossorigin="anonymous" src="/js/theme.js" integrity=""></script>
+
+
+<script defer crossorigin="anonymous" src="/js/instantpage.min.js" integrity=""></script>
 
   
     <meta name="description" content="" />
   
 
 
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.155.1">
   </head>
   <body>
     
@@ -88,9 +122,9 @@
   <div class="nav">
     
 
-    <ul class="nav-links">
+      <ul class="nav-links">
       
-        
+      
           <li>
             <a href="/" name="Home" class="tooltip"
               ><i class="fas fa-home fa-lg"></i>
@@ -99,7 +133,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/authors" name="Authors" class="tooltip"
               ><i class="fas fa-user fa-lg"></i>
@@ -108,7 +142,7 @@
           </li>
           
       
-        
+      
           <li>
             <a href="/tags" name="Tags" class="tooltip"
               ><i class="fas fa-tag fa-lg"></i>
@@ -127,23 +161,28 @@
           
             
 
-              
-              <h1>
-		
-		Posts
-		
-		
-                </h1>
-              
-
-              
-
-              
             
-          
-          
-          
-          
+            <h1 class="post-title">
+		      
+		      Posts
+		      
+		      
+            </h1>
+            
+
+            <div>
+              
+            </div>
+
+
+            
+
+            
+
+            
+
+            
+            
         </div>
       </div>
     </div>
@@ -154,38 +193,99 @@
   <div class="container" role="main">
     <div class="posts-list">
       
-        
       
+      
+      
+        <article class="post-preview">
+  <a href="https://book.if-blog.site/posts/mystery/kyu-nin/">
+    <h2 class="post-title">
+      9人はなぜ殺される
+      
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ピーター・スワンソン</span>
+	  
+    </h2>
+  </a>
+
+  <div class="post-entry">
+    <p>あらすじ 9人の元に、自分の名前を含む9人の名前が書かれたリストが郵送される。 FBIの捜査官であるジェシカも9人のリストに含まれていた。
+リストに含まれた人物が次々に殺害されていく。 ジェシカも調査を進めるが、9人のつながりがなかなか掴めないでいた。
+</p>
+    
+    <a href="/posts/mystery/kyu-nin/" class="post-read-more"></a>
+    
+  </div>
+
+  <div class="postmeta">
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
+    
+    
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
+
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2026-06-08
+    
+  </div>
+</div>
+
+  </div>
+</article>
+
       
         <article class="post-preview">
   <a href="https://book.if-blog.site/posts/mystery/yattsu_no_kannpekina_satuzin/">
     <h2 class="post-title">
       ８つの完璧な殺人
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ピーター・スワンソン</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>ポイント 驚くような展開が少ないものの、緻密に計算されたストーリー オチが最後までわからない展開 主人公の内面描写が魅力 脇役にも隠された秘密 クラシ</p>
-    <a href="https://book.if-blog.site/posts/mystery/yattsu_no_kannpekina_satuzin/" class="post-read-more"></a>
+    <p>ポイント 驚くような展開が少ないものの、緻密に計算されたストーリー オチが最後までわからない展開 主人公の内面描写が魅力 脇役にも隠された秘密 クラシックミステリーのオマージュ あらすじ ミステリー専門書店の店主マルコムのもとに、FBI捜査官が訪れる。マルコムは10年前、犯罪小説史上もっとも利口で、 …</p>
+    
+    <a href="/posts/mystery/yattsu_no_kannpekina_satuzin/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-      <a href="https://book.if-blog.site/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2024-08-18
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2024-08-18
+    
+  </div>
 </div>
 
   </div>
@@ -197,30 +297,45 @@
     <h2 class="post-title">
       星降り山荘の殺人
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">倉知淳</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>ポイント 雪山の山荘というクローズドサークルの王道ミステリー 読者が謎を解くタイプのミステリー クセの強い登場人物も魅力 あらすじ 広告代理店で働く杉</p>
-    <a href="https://book.if-blog.site/posts/mystery/hoshihurisanntou_no_satsuzin/" class="post-read-more"></a>
+    <p>ポイント 雪山の山荘というクローズドサークルの王道ミステリー
+読者が謎を解くタイプのミステリー
+クセの強い登場人物も魅力
+あらすじ 広告代理店で働く杉下和夫は、芸能部への転属を命じられ、星園詩郎のマネージャー見習いを担当することとなる。 星園詩郎は、星の美しさを広める「スターウォッチャー」という肩書 …</p>
+    
+    <a href="/posts/mystery/hoshihurisanntou_no_satsuzin/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-      <a href="https://book.if-blog.site/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/">講談社</a>&nbsp;
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/">講談社</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2024-08-18
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2024-08-18
+    
+  </div>
 </div>
 
   </div>
@@ -232,30 +347,44 @@
     <h2 class="post-title">
       老虎残夢
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">桃野雑派</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>ポイント 武侠小説と本格ミステリーの融合 「館」×「孤島」×「特殊設定」×「百合」 あらすじ 「館」×「孤島」×「特殊設定」×「百合」！ 孤絶した楼閣</p>
-    <a href="https://book.if-blog.site/posts/mystery/rouko_zanmu/" class="post-read-more"></a>
+    <p>ポイント 武侠小説と本格ミステリーの融合 「館」×「孤島」×「特殊設定」×「百合」 あらすじ 「館」×「孤島」×「特殊設定」×「百合」！
+孤絶した楼閣＝密室で起きた「絶対不可能殺人」 最侠のヒロインは、最愛の師の「死の謎」を解くことができるのか！？
+</p>
+    
+    <a href="/posts/mystery/rouko_zanmu/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-      <a href="https://book.if-blog.site/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/">講談社</a>&nbsp;
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E8%AC%9B%E8%AB%87%E7%A4%BE/">講談社</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2024-08-18
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2024-08-18
+    
+  </div>
 </div>
 
   </div>
@@ -267,28 +396,39 @@
     <h2 class="post-title">
       首無し館の殺人
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">月原渉</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 宇江祇(うえがみ)家は貿易商として栄えたが、和意(かずい)の代になり衰えた。 子宝に恵まれず、子供は娘の華煉(かれん)のみ。息子の不甲</p>
-    <a href="https://book.if-blog.site/posts/mystery/kubinashikan_no_satsuzin/" class="post-read-more"></a>
+    <p>あらすじ 宇江祇(うえがみ)家は貿易商として栄えたが、和意(かずい)の代になり衰えた。 子宝に恵まれず、子供は娘の華煉(かれん)のみ。息子の不甲斐に前当主である、和一郎は若い妻を娶った。和一郎の死後、遺書には遺産は七回忌で相続人を決めるとあった。
+</p>
+    
+    <a href="/posts/mystery/kubinashikan_no_satsuzin/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2023-06-30
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2023-06-30
+    
+  </div>
 </div>
 
   </div>
@@ -300,30 +440,42 @@
     <h2 class="post-title">
       だからダスティンは死んだ
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ピーター・スワンソン</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 主人公で画家のヘンは、夫のロイドとともにボストン郊外へと引っ越した。 近所のブロック・パーティで隣人のマシューとマイラ夫婦と仲良くなり</p>
-    <a href="https://book.if-blog.site/posts/mystery/dastin/" class="post-read-more"></a>
+    <p>あらすじ 主人公で画家のヘンは、夫のロイドとともにボストン郊外へと引っ越した。 近所のブロック・パーティで隣人のマシューとマイラ夫婦と仲良くなり、二人の家に招かれる事となった。 夕食の際、ヘンはマシューの家でトロフィーを見かける。 ヘンの記憶では、そのトロフィーはとある殺人事件で現場から持ち出された …</p>
+    
+    <a href="/posts/mystery/dastin/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-      <a href="https://book.if-blog.site/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2023-06-02
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2023-06-02
+    
+  </div>
 </div>
 
   </div>
@@ -335,28 +487,39 @@
     <h2 class="post-title">
       連続殺人鬼かえる男
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">中山七里</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ とあるマンションの13階で、フックに吊るされた裸の女性の死体が発見される。 そのそばにはひらがなだけで書かれた怪しいメモが残されていた</p>
-    <a href="https://book.if-blog.site/posts/mystery/kaeru_otoko/" class="post-read-more"></a>
+    <p>あらすじ とあるマンションの13階で、フックに吊るされた裸の女性の死体が発見される。 そのそばにはひらがなだけで書かれた怪しいメモが残されていた。
+埼玉県警に務める小手川は捜査を開始するが、 大きな進展はみられないまま、無残な状態の被害者が発見される。 被害者のもとには一人目の被害者と同様のメモが残 …</p>
+    
+    <a href="/posts/mystery/kaeru_otoko/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2022-09-10
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2022-09-10
+    
+  </div>
 </div>
 
   </div>
@@ -368,28 +531,40 @@
     <h2 class="post-title">
       ポピーのためにできること
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ジャニス・バレット</span>
+	  
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">山田蘭訳</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ マーティン・ヘイワードはイギリスの田舎でアマチュア劇団である〈フェアウェイ劇団〉を運営している。 ある日、マーティン・ヘイワードの孫娘</p>
-    <a href="https://book.if-blog.site/posts/mystery/the_appeal/" class="post-read-more"></a>
+    <p>あらすじ マーティン・ヘイワードはイギリスの田舎でアマチュア劇団である〈フェアウェイ劇団〉を運営している。 ある日、マーティン・ヘイワードの孫娘が難病を患ったことが発覚する。治療には大金が必要であった。 ヘイワード一家は地域の有力者であり、フェアウェイ劇団のメンバーは治療費のために募金活動を初めた。 …</p>
+    
+    <a href="/posts/mystery/the_appeal/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2022-08-20
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2022-08-20
+    
+  </div>
 </div>
 
   </div>
@@ -401,28 +576,40 @@
     <h2 class="post-title">
       グラスバードは還らない
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">市川憂人</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 「ジュリーフィッシュは凍らない」のシリーズの3作目。 SG社の社長であり、不動産王のヒューは、迷彩効果を持つような特殊なガラスを作り、</p>
-    <a href="https://book.if-blog.site/posts/mystery/the_glassbird_will_never_return/" class="post-read-more"></a>
+    <p>あらすじ 「ジュリーフィッシュは凍らない」のシリーズの3作目。
+SG社の社長であり、不動産王のヒューは、迷彩効果を持つような特殊なガラスを作り、売り出すため、 とある大学と共同研究を進めていた。
+</p>
+    
+    <a href="/posts/mystery/the_glassbird_will_never_return/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
+  </div>
 
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-12-05
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-12-05
+    
+  </div>
 </div>
 
   </div>
@@ -434,63 +621,41 @@
     <h2 class="post-title">
       自由研究には向かない殺人
       
-    </h2>   
+
+      
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">ホリー・ジャクソン</span>
+	  
+	  <span class="ellipsis"style="padding-left:0.5em; font-size:0.6em; font-weight:300">服部京子訳</span>
+	  
+    </h2>
   </a>
 
   <div class="post-entry">
-    <p>あらすじ 高校生のピップは、夏休みの自由研究として、ある殺人事件の調査をすることにした。 ５年前にピップの住んでいる町で起きた事件であり、被害者</p>
-    <a href="https://book.if-blog.site/posts/mystery/a_good_girls_guide_to_murder/" class="post-read-more"></a>
+    <p>あらすじ 高校生のピップは、夏休みの自由研究として、ある殺人事件の調査をすることにした。 ５年前にピップの住んでいる町で起きた事件であり、被害者と加害者はともにピップの通う高校の生徒であった。
+</p>
+    
+    <a href="/posts/mystery/a_good_girls_guide_to_murder/" class="post-read-more"></a>
+    
   </div>
 
   <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+    <div style='display:flex;justify-content: space-between'>
+  <div class="meta-post blog-tags">
+    <i class="fas fa-tag" style="color:#111111"></i>
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
     
-  
-</div>
-
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-12-03
-  
-</div>
-
-  </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://book.if-blog.site/posts/mystery/the_murder_of_miranda/">
-    <h2 class="post-title">
-      そしてミランダを殺す
-      
-    </h2>   
-  </a>
-
-  <div class="post-entry">
-    <p>あらすじ 主人公のテッドは、空港で、リリーという女性に出会う。 テッドはリリーと世間話をしている中で妻であるミランダが不倫をしていることを話す。</p>
-    <a href="https://book.if-blog.site/posts/mystery/the_murder_of_miranda/" class="post-read-more"></a>
+    <span class="blog-tag">
+      <a href="/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
+    </span>
+    
+    
   </div>
 
-  <div class="postmeta">
-    <div class="meta-post blog-tags" style="display:inline-block">
-  <i class="fas fa-tag" style="color:#111111"></i>
-  
+  <div class="meta-post">
+    <i class="fa fa-calendar-alt"></i
+                                    >&nbsp;2021-12-03
     
-      <a href="https://book.if-blog.site/tags/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC/">ミステリー</a>&nbsp;
-    
-      <a href="https://book.if-blog.site/tags/%E5%89%B5%E5%85%83%E6%8E%A8%E7%90%86%E6%96%87%E5%BA%AB/">創元推理文庫</a>&nbsp;
-    
-  
-</div>
-
-<div class="meta-post" style="display:inline-block; float: right;">
-  <i class="fa fa-calendar-alt"></i
-  >&nbsp;2021-11-11
-  
+  </div>
 </div>
 
   </div>
@@ -499,14 +664,31 @@
       
     </div>
 
-    
+    <script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7303877370233278"
+  crossorigin="anonymous"
+></script>
+
+<ins
+  class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-7303877370233278"
+  data-ad-slot="8033172579"
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+></ins>
+<script>
+  ;(adsbygoogle = window.adsbygoogle || []).push({})
+</script>
+
     
       <ul class="pager">
         
         
           <li class="next">
             <a href="https://book.if-blog.site/posts/page/2/"
-              >Next <i class="fas fa-chevron-right"></i
+              ><i class="fas fa-chevron-right"></i
             ></a>
           </li>
         
@@ -527,15 +709,15 @@
 
   <div class="container">
     <div class="credits copyright">
-      <a href="https://book.if-blog.site/pages/about">if_004</a>
+      <a href="https://book.if-blog.site//pages/about"></a>
       &nbsp;&copy;
-      2024
+      2026
       
         &nbsp;/&nbsp;
-        <a href="https://book.if-blog.site">読書録</a>
+        <a href="https://book.if-blog.site/">読書録</a>
       
       &nbsp;&ndash;&nbsp;
-      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+      
 
       <p class="credits theme-by">
          <a href="https://gohugo.io">Hugo</a>&nbsp;Theme
